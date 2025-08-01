@@ -1,0 +1,33 @@
+Model,Dataset,Metric,Mean,Std Dev,CI Lower,CI Upper
+Random Forest,Original,Accuracy,99.88,0.00098,99.81,99.95
+Random Forest,Original,Precision,99.88,0.00102,99.81,99.95
+Random Forest,Original,Recall,99.88,0.001,99.81,99.95
+Random Forest,Original,F1-Score,99.88,0.00101,99.81,99.95
+Random Forest,padxor,Accuracy,53.32,0.04033,50.44,56.2
+Random Forest,padxor,Precision,57.51,0.06813,52.64,62.39
+Random Forest,padxor,Recall,53.86,0.04548,50.61,57.12
+Random Forest,padxor,F1-Score,52.89,0.05852,48.71,57.08
+K-Nearest Neighbors,Original,Accuracy,90.94,0.00447,90.62,91.26
+K-Nearest Neighbors,Original,Precision,91.21,0.00529,90.84,91.59
+K-Nearest Neighbors,Original,Recall,90.92,0.00482,90.57,91.26
+K-Nearest Neighbors,Original,F1-Score,91.04,0.00493,90.68,91.39
+K-Nearest Neighbors,padxor,Accuracy,24.95,0.0,24.95,24.95
+K-Nearest Neighbors,padxor,Precision,44.65,0.0,44.65,44.65
+K-Nearest Neighbors,padxor,Recall,22.38,0.0,22.38,22.38
+K-Nearest Neighbors,padxor,F1-Score,11.98,0.0,11.98,11.98
+Decision Tree,Original,Accuracy,99.77,0.00103,99.7,99.84
+Decision Tree,Original,Precision,99.77,0.00105,99.69,99.84
+Decision Tree,Original,Recall,99.77,0.00109,99.69,99.85
+Decision Tree,Original,F1-Score,99.77,0.00107,99.69,99.84
+Decision Tree,padxor,Accuracy,47.39,0.04753,43.99,50.79
+Decision Tree,padxor,Precision,47.43,0.07427,42.12,52.74
+Decision Tree,padxor,Recall,48.4,0.04935,44.87,51.93
+Decision Tree,padxor,F1-Score,46.01,0.0523,42.27,49.75
+Gradient Boosting Machine,Original,Accuracy,99.65,0.00139,99.55,99.75
+Gradient Boosting Machine,Original,Precision,99.66,0.00141,99.56,99.76
+Gradient Boosting Machine,Original,Recall,99.64,0.00147,99.54,99.75
+Gradient Boosting Machine,Original,F1-Score,99.65,0.00144,99.55,99.75
+Gradient Boosting Machine,padxor,Accuracy,32.58,0.04008,29.71,35.45
+Gradient Boosting Machine,padxor,Precision,40.3,0.03404,37.86,42.73
+Gradient Boosting Machine,padxor,Recall,31.38,0.0412,28.43,34.33
+Gradient Boosting Machine,padxor,F1-Score,30.82,0.03733,28.15,33.49

@@ -1,0 +1,33 @@
+Model,Dataset,Metric,Mean,Std Dev,CI Lower,CI Upper
+Random Forest,Original,Accuracy,99.88,0.00098,99.81,99.95
+Random Forest,Original,Precision,99.88,0.00102,99.81,99.95
+Random Forest,Original,Recall,99.88,0.001,99.81,99.95
+Random Forest,Original,F1-Score,99.88,0.00101,99.81,99.95
+Random Forest,padshift,Accuracy,52.41,0.0419,49.41,55.41
+Random Forest,padshift,Precision,57.04,0.06943,52.07,62.0
+Random Forest,padshift,Recall,52.61,0.04658,49.28,55.95
+Random Forest,padshift,F1-Score,51.99,0.05951,47.74,56.25
+K-Nearest Neighbors,Original,Accuracy,90.94,0.00447,90.62,91.26
+K-Nearest Neighbors,Original,Precision,91.21,0.00529,90.84,91.59
+K-Nearest Neighbors,Original,Recall,90.92,0.00482,90.57,91.26
+K-Nearest Neighbors,Original,F1-Score,91.04,0.00493,90.68,91.39
+K-Nearest Neighbors,padshift,Accuracy,23.83,0.0,23.83,23.83
+K-Nearest Neighbors,padshift,Precision,16.47,0.0,16.47,16.47
+K-Nearest Neighbors,padshift,Recall,21.51,0.0,21.51,21.51
+K-Nearest Neighbors,padshift,F1-Score,10.15,0.0,10.15,10.15
+Decision Tree,Original,Accuracy,99.77,0.00103,99.7,99.84
+Decision Tree,Original,Precision,99.77,0.00105,99.69,99.84
+Decision Tree,Original,Recall,99.77,0.00109,99.69,99.85
+Decision Tree,Original,F1-Score,99.77,0.00107,99.69,99.84
+Decision Tree,padshift,Accuracy,46.58,0.04607,43.28,49.87
+Decision Tree,padshift,Precision,47.06,0.0739,41.77,52.34
+Decision Tree,padshift,Recall,47.28,0.04903,43.77,50.78
+Decision Tree,padshift,F1-Score,45.07,0.05164,41.37,48.76
+Gradient Boosting Machine,Original,Accuracy,99.65,0.00139,99.55,99.75
+Gradient Boosting Machine,Original,Precision,99.66,0.00141,99.56,99.76
+Gradient Boosting Machine,Original,Recall,99.64,0.00147,99.54,99.75
+Gradient Boosting Machine,Original,F1-Score,99.65,0.00144,99.55,99.75
+Gradient Boosting Machine,padshift,Accuracy,31.32,0.03803,28.6,34.04
+Gradient Boosting Machine,padshift,Precision,39.98,0.03374,37.57,42.39
+Gradient Boosting Machine,padshift,Recall,30.12,0.03933,27.31,32.93
+Gradient Boosting Machine,padshift,F1-Score,29.34,0.03616,26.75,31.92

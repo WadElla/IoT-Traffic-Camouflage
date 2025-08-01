@@ -1,0 +1,9 @@
+Model,Dataset,Metric,Mean,Std Dev,CI Lower,CI Upper
+Neural Network,Original,Accuracy,98.55,0.00385,98.27,98.83
+Neural Network,Original,Precision,98.62,0.0038,98.35,98.89
+Neural Network,Original,Recall,98.57,0.00354,98.31,98.82
+Neural Network,Original,F1-Score,98.59,0.00367,98.33,98.85
+Neural Network,frag,Accuracy,5.23,0.00137,5.13,5.33
+Neural Network,frag,Precision,8.71,0.10912,0.91,16.52
+Neural Network,frag,Recall,16.72,0.00094,16.66,16.79
+Neural Network,frag,F1-Score,1.75,0.00186,1.61,1.88

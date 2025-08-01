@@ -1,0 +1,33 @@
+Model,Dataset,Metric,Mean,Std Dev,CI Lower,CI Upper
+Random Forest,Original,Accuracy,99.88,0.00098,99.81,99.95
+Random Forest,Original,Precision,99.88,0.00102,99.81,99.95
+Random Forest,Original,Recall,99.88,0.001,99.81,99.95
+Random Forest,Original,F1-Score,99.88,0.00101,99.81,99.95
+Random Forest,con,Accuracy,50.25,0.07406,44.95,55.55
+Random Forest,con,Precision,58.37,0.11309,50.28,66.46
+Random Forest,con,Recall,50.69,0.07995,44.97,56.41
+Random Forest,con,F1-Score,48.23,0.10284,40.87,55.59
+K-Nearest Neighbors,Original,Accuracy,90.94,0.00447,90.62,91.26
+K-Nearest Neighbors,Original,Precision,91.21,0.00529,90.84,91.59
+K-Nearest Neighbors,Original,Recall,90.92,0.00482,90.57,91.26
+K-Nearest Neighbors,Original,F1-Score,91.04,0.00493,90.68,91.39
+K-Nearest Neighbors,con,Accuracy,22.74,0.0,22.74,22.74
+K-Nearest Neighbors,con,Precision,4.89,0.0,4.89,4.89
+K-Nearest Neighbors,con,Recall,20.0,0.0,20.0,20.0
+K-Nearest Neighbors,con,F1-Score,7.86,0.0,7.86,7.86
+Decision Tree,Original,Accuracy,99.77,0.00103,99.7,99.84
+Decision Tree,Original,Precision,99.77,0.00105,99.69,99.84
+Decision Tree,Original,Recall,99.77,0.00109,99.69,99.85
+Decision Tree,Original,F1-Score,99.77,0.00107,99.69,99.84
+Decision Tree,con,Accuracy,33.9,0.06372,29.34,38.46
+Decision Tree,con,Precision,28.74,0.11235,20.71,36.78
+Decision Tree,con,Recall,35.8,0.06394,31.23,40.38
+Decision Tree,con,F1-Score,28.62,0.08562,22.49,34.74
+Gradient Boosting Machine,Original,Accuracy,99.65,0.00139,99.55,99.75
+Gradient Boosting Machine,Original,Precision,99.66,0.00141,99.56,99.76
+Gradient Boosting Machine,Original,Recall,99.64,0.00147,99.54,99.75
+Gradient Boosting Machine,Original,F1-Score,99.65,0.00144,99.55,99.75
+Gradient Boosting Machine,con,Accuracy,17.51,0.04813,14.07,20.96
+Gradient Boosting Machine,con,Precision,17.34,0.09387,10.63,24.06
+Gradient Boosting Machine,con,Recall,17.35,0.04982,13.79,20.92
+Gradient Boosting Machine,con,F1-Score,15.66,0.05578,11.67,19.65
